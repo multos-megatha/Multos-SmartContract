@@ -32,3 +32,4 @@ This public entry function allows you to send a custom fungible token to a list 
     - `asset_metadata: Object<Metadata>`: he object reference for the custom fungible token. This is used to identify the specific token to be dispersed.
     - `to: vector<address>`: A vector of recipient addresses.
     - `values: vector<u64>`: A vector of u64 values representing the amount of the custom token to send to each corresponding recipient.
+- behavior:
