@@ -34,3 +34,4 @@ This public entry function allows you to send a custom fungible token to a list 
     - `values: vector<u64>`: A vector of u64 values representing the amount of the custom token to send to each corresponding recipient.
 - behavior:
     - It performs the same length and emptiness checks as `disperseAptos`
+    - It uses the `primary_fungible_store::transfer` function to distribute the custom token.
