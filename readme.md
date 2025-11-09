@@ -35,3 +35,4 @@ This public entry function allows you to send a custom fungible token to a list 
 - behavior:
     - It performs the same length and emptiness checks as `disperseAptos`
     - It uses the `primary_fungible_store::transfer` function to distribute the custom token.
+    - Transfers of 0 tokens are skipped.
